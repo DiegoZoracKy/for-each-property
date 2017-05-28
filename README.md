@@ -1,5 +1,7 @@
 # for-each-property
 
+[![Build Status](https://api.travis-ci.org/DiegoZoracKy/for-each-property.svg)](https://travis-ci.org/DiegoZoracKy/for-each-property)
+
 Executes a callback for each property found on a object, with options regarding **enumerability** (enumerable or non-enumerable) and **ownership** (inherited or only own properties). It excludes built-in properties from Object and Function prototypes by default, and this behaviour can also be configured via options.
 
 ## Goal
