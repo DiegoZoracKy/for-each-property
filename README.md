@@ -10,6 +10,8 @@ The goal is to provide a way to iterate through object's properties with a clean
 
 Currently JavaScript has some native methods to handle some cases, but not for all, and not with easy guessing names. Under the hood, the native methods available for some of the cases are being used. For example: `Object.keys` to *enumerable* and not *inherited*, `for..in`to *enumerable* and *inherited*, `Object.getOwnPropertyNames` for own properties, not *inherited*, *enumerable* and *nonenumerable*.
 
+Check [for-each-property-deep](https://github.com/DiegoZoracKy/for-each-property-deep) for a recursive version, which will traverse object's nested properties.
+
 ## Usage
 
 ```javascript
@@ -26,7 +28,7 @@ forEachProperty(object, callback, options);
  Literal object, Object Instance, Class Reference... Any object whose properties can be iterated on.
 
  **callback**:
- Function that will receive `(value, key)`
+ Function that will receive `(value, key, object)` (object is the one forEachProperty() is being applied to)
 
  **options**:
  * **enumerability**:
