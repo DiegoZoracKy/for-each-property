@@ -21,7 +21,7 @@ const options = {enumerability: 'enumerable', inherited: false};
 forEachProperty(object, callback, options);
 ```
  **object**:
- The object whose properties must be iterated on
+ Literal object, Object Instance, Class Reference... Any object whose properties can be iterated on.
 
  **callback**:
  Function that will receive `(value, key)`
