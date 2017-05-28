@@ -1,7 +1,7 @@
 {
   "name": "for-each-property",
   "version": "0.0.1",
-  "description": "Executes a callback for each property found on a object, with options regarding enumerability (enumerable or non-enumerable) and ownership (inherited or only own properties). It excludes built-in properties from Object and Function prototypes by default, and this behavior can also be configured via options.",
+  "description": "Executes a callback for each property found on a object, with options regarding enumerability (enumerable or non-enumerable) and ownership (inherited or only own properties). It excludes built-in properties from Object and Function prototypes by default, and this behaviour can also be configured via options.",
   "main": "lib/for-each-property.js",
   "directories": {
     "test": "test"
